@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .j .k{
+   background-color: blueviolet;
+   visibility: hidden;
+   position: relative;
+   top:10px;
+   left:20px;
+   
+}
+.j{
+   background-color: aqua;
+   visibility: visible;
+   z-index:1;
+   position:absolute;
+}
+.j:hover .k{
+   visibility: visible;
+}
+
+ /* chess task */
+  table,tr,td{
+    border: 2px solid;
+    border-collapse;
+    height:10vh;
+    width:50vw;
+    padding:2p
+ }
+ .a1:nth-of-type(2n){
+    background-color:rgb(216, 186, 186);
+ }
+ .a2:nth-of-type(2n+1){
+    background-color:lightgray;
+ }
+ .c{
+   position:relative;
+   left:20px
+ }
+ .c1{
+   font-size: 50px;
+ }
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- task1 tooltip -->
+    
+    <div class="j">Hover over me
+        <span class="k">chess board</span>
+      </div><br><br>
+    <table>
+        <tr>
+            <td><i class="c c1">&#9814;</i></td>
+            <td class="b a1"><i class="c c1">&#9816;</i></td>
+            <td><i class="c c1">&#9815;</i></td>
+            <td class="b a1"><i class="c c1">&#9813;</i></td>
+            <td><i class="c c1">&#9812;</i></td>
+            <td class="b a1"><i class="c c1">&#9815;</i></td>
+            <td><i class="c c1">&#9816;</i></td>
+            <td class="b a1"><i class="c c1">&#9814;</i></td>
+        </tr>
+        <tr>
+            <td class="b a2"><i class="c c1">&#9817;</i></td>
+            <td><i class="c c1">&#9817;</i></td>
+            <td class="b a2"><i class="c c1">&#9817;</i></td>
+            <td><i class="c c1">&#9817;</i></td>
+            <td class="b a2"><i class="c c1">&#9817;</i></td>
+            <td><i class="c c1">&#9817;</i></td>
+            <td class="b a2"><i class="c c1">&#9817;</i></td>
+            <td><i class="c c1">&#9817;</i></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="b a1"></td>
+            <td></td>
+            <td class="b a1"></td>
+            <td></td>
+            <td class="b a1"></td>
+            <td></td>
+            <td class="b a1"></td>
+        </tr>
+        <tr>
+            <td class="b a2"></td>
+            <td></td>
+            <td class="b a2"></td>
+            <td></td>
+            <td class="b a2"></td>
+            <td></td>
+            <td class="b a2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="b a1"></td>
+            <td></td>
+            <td class="b a1"></td>
+            <td></td>
+            <td class="b a1"></td>
+            <td></td>
+            <td class="b a1"></td>
+        </tr>
+        <tr>
+            <td class="b a2"></td>
+            <td></td>
+            <td class="b a2"></td>
+            <td></td>
+            <td class="b a2"></td>
+            <td></td>
+            <td class="b a2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><i class="c c1">&#9817;</i></td>
+            <td class="b a1"><i class="c c1">&#9817;</i></td>
+            <td><i class="c c1">&#9817;</i></td>
+            <td class="b a1"><i class="c c1">&#9817;</i></td>
+            <td><i class="c c1">&#9817;</i></td>
+            <td class="b a1"><i class="c c1">&#9817;</i></td>
+            <td><i class="c c1">&#9817;</i></td>
+            <td class="b a1"><i class="c c1">&#9817;</i></td>
+        </tr>
+        <tr>
+            <td class="b a2"><i class="c c1">&#9814;</i></td>
+            <td><i class="c c1">&#9816;</i></td>
+            <td class="b a2"><i class="c c1">&#9815;</i></td>
+            <td><i class="c c1">&#9813;</i></td>
+            <td class="b a2"><i class="c c1">&#9812;</i></td>
+            <td><i class="c c1">&#9815;</i></td>
+            <td class="b a2"><i class="c c1">&#9816;</i></td>
+            <td><i class="c c1">&#9814;</i></td>
+        </tr>
+    </table>
+</body>
+</html>
